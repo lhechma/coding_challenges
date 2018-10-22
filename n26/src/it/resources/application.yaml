@@ -1,0 +1,11 @@
+transaction:
+  tolerable-clock-drift-millis: 0
+  event-ttl-milli-seconds : 60000
+
+spring:
+  jackson:
+    dateFormat: yyyy-MM-dd'T'HH:mm:ss.SSSz
+
+runtime:
+  profile:
+    fifo: true
